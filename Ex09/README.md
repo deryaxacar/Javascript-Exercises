@@ -12,6 +12,8 @@ var number2 = 20;
 
 `number1` ve `number2` isimli iki sayı değişkeni oluşturuldu.
 
+---
+
 ### 1. Toplama (Addition)
 
 ```javascript
@@ -24,6 +26,8 @@ document.write("sum: " + sum + "<br>");
 
 - JavaScript’te `+` operatörü sayılar üzerinde toplama, metinler üzerinde ise birleştirme işlemi yapar.
 
+---
+
 ### 2. Çıkarma (Subtraction)
 
 ```javascript
@@ -33,6 +37,8 @@ document.write("difference: " + difference + "<br>");
 ```
 
 - `number1` değerinden `number2` değeri çıkarılır.
+
+---
 
 ### 3. Çarpma (Multiplication)
 
@@ -44,6 +50,8 @@ document.write("product: " + product + "<br>");
 
 - `number1` ve `number2` çarpılır.
 
+---
+
 ### 4. Bölme (Division)
 
 ```javascript
@@ -53,6 +61,8 @@ document.write("quotient: " + quotient + "<br>");
 ```
 
 - `number1`, `number2`'ye bölünür ve sonuç ondalıklı olabilir.
+
+---
 
 ### 5. Mod Alma (Remainder / Modulus)
 
@@ -66,6 +76,8 @@ document.write("remainder: " + remainder + "<br>");
 
 - Örneğin `10 % 3 = 1` şeklinde sonuç bulunur.
 
+---
+
 ### 6. String Toplama (Birleştirme - Concatenation)
 
 ```javascript
@@ -78,6 +90,8 @@ document.write("Name Surname: " + sum + "<br>");
 
 - İki metin (String) değişkeni `+` operatörü ile birleştirilir.
 - Sonuç: `"John Doe"`
+
+---
 
 ### Özet
 - `+` (Toplama / Birleştirme)
