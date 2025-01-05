@@ -1,0 +1,1 @@
+console.log('konsola yazdırıldı.');
