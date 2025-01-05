@@ -11,3 +11,4 @@
 - [Ex07 - InnerHTML Nedir ?](Ex07)
 - [Ex08 - Değişken Türleri Nelerdir ?](Ex08)
 - [Ex09 - Aritmetik Operatörler](Ex09)
+- [Ex10 - Const Nedir ?](Ex10)
