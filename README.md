@@ -13,4 +13,5 @@
 - [Ex09 - Aritmetik Operatörler](Ex09)
 - [Ex10 - Constant Nedir ?](Ex10)
 - [Ex11 - Var Ve Let Farkı Nedir ?](Ex11)
-- [Ex12 - Atama Operatörleri ](Ex12)
+- [Ex12 - Atama Operatörleri](Ex12)
+- [Ex13 - Karşılaştırma Operatörleri](Ex13)
