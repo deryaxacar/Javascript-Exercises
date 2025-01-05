@@ -78,6 +78,8 @@ Değerleri karşılaştırır; tip dönüşümü yapabildiği için `"10" == 10`
 - `===` (Sıkı Eşittir)
 Değer ve tipi birlikte karşılaştırır; `"10" === 10` ifadesi `false` döner.
 
+---
+
 **Özet**
 
 Atama Operatörleri bir değişkene aritmetik işlemleri sonucunda elde edilen değeri tekrar kaydetmeye yarar.
