@@ -2,4 +2,4 @@
 
 **İçindekiler**
 
-- [Ex01 - Html dosyasına Javascript bağlama](./ex01)
+- [Ex01 - Html dosyasına Javascript bağlama](.ex01)
