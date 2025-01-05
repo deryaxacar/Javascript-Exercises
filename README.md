@@ -10,3 +10,4 @@
 - [Ex06 - Document.GetElementByID Nedir ?](Ex06)
 - [Ex07 - InnerHTML Nedir ?](Ex07)
 - [Ex08 - Değişken Türleri Nelerdir ?](Ex08)
+- [Ex09 - Aritmetik Operatörler](Ex09)
