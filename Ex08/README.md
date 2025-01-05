@@ -1,10 +1,21 @@
-### Değişken Türleri Nelerdir ?
+## Değişken Türleri Nelerdir ?
 
-JavaScript’te değişkenler farklı veri türleri taşıyabilir. En yaygın kullanılan türlerden bazıları şunlardır:
+JavaScript’te değişkenler farklı veri türleri taşıyabilir. En yaygın kullanılan türlerden bazıları şunlardır: `string`, `number`, `boolean`.
+
+```javascript
+var name = "Derya"; // String
+var age = 21; // Number
+var isStudent = true; // Boolean
+var school = null; // Null
+var job; // Undefined
+
+```
+
+Şimdi bunları sırasıyla inceleyelim.
 
 ---
 
-**1. String**
+### 1. String
 
 Metinsel verileri ifade eden veri türüdür.  
 Örnek:
@@ -16,7 +27,7 @@ var name = "Derya";
 
 ---
 
-**2. Number**
+### 2. Number
 
 `Tamsayı` veya `ondalıklı` sayı `(float)` değerlerini ifade eder.
 
@@ -30,7 +41,7 @@ JavaScript’te tüm sayılar Number türündedir (tamsayı, ondalık ayırt edi
 
 ---
 
-**3. Boolean**
+### 3. Boolean
 
 `true` veya `false` şeklinde mantıksal (lojik) değerleri tutar.
 
@@ -44,7 +55,7 @@ var isStudent = true;
 
 ---
 
-**4. Null**
+### 4. Null
 
 Örnek:
 ```javascript
@@ -54,7 +65,7 @@ var school = null;
 
 `"Herhangi bir değeri bulunmuyor"` demenin kasıtlı bir yoludur.
 
-**5. Undefined**
+### 5. Undefined
 
 Bir değişken tanımlanmış fakat değer atanmamış ise JavaScript’te `undefined` değerine sahip olur.
 
@@ -66,7 +77,7 @@ console.log(studentName); // undefined
 
 ---
 
-**özet**
+### özet
 
 JavaScript’te değişken türlerini doğru seçmek kodunuzun anlaşılır ve bakımı kolay olmasını sağlar. Uygulama geliştirirken, türler arasında dönüşümleri ve güvenlik önlemlerini de göz önünde bulundurmak önemlidir.
 
