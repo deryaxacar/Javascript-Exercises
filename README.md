@@ -2,4 +2,5 @@
 
 **İçindekiler**
 
-- [Ex01 - Html dosyasına Javascript bağlama](Ex01)
+- [Ex01 - Html dosyasına Javascript nasıl bağlanır?](Ex01)
+- [Ex02 - NoScript etiketi nedir?](Ex02)
