@@ -1,4 +1,4 @@
-### Var Ve Let Farkı Nedir ?
+## Var Ve Let Farkı Nedir ?
 
 JavaScript’te değişken tanımlamak için kullanılan iki temel anahtar kelime **`var`** ve **`let`**’tir. İkisi arasındaki en önemli fark **blok kapsamı** (block scope) ve **işlev kapsamı** (function scope) ile ilgilidir.
 
