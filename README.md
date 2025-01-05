@@ -9,3 +9,4 @@
 - [Ex05 - Console.Log Nedir ?](Ex05)
 - [Ex06 - Document.GetElementByID Nedir ?](Ex06)
 - [Ex07 - InnerHTML Nedir ?](Ex07)
+- [Ex08 - Değişken Türleri Nelerdir ?](Ex08)
