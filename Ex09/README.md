@@ -2,6 +2,8 @@
 
 Bu örnekte, JavaScript ile temel aritmetik işlemleri `(toplama, çıkarma, çarpma, bölme, mod alma)` ve `string (metin)` toplama gösterilmektedir.
 
+---
+
 ### Değişken Tanımlama
 
 ```javascript
