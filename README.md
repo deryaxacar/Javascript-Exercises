@@ -8,3 +8,4 @@
 - [Ex04 - Document.Write Nedir ?](Ex04)
 - [Ex05 - Console.Log Nedir ?](Ex05)
 - [Ex06 - Document.GetElementByID Nedir ?](Ex06)
+- [Ex07 - InnerHTML Nedir ?](Ex07)
