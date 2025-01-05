@@ -1,4 +1,4 @@
-## Javascript Egzersizleri
+## Sıfırdan Javascript Egzersizleri
 
 **İçindekiler**
 
