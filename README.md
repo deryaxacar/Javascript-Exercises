@@ -7,3 +7,4 @@
 - [Ex03 - Alert Fonksiyonu Nedir ?](Ex03)
 - [Ex04 - Document.Write Nedir ?](Ex04)
 - [Ex05 - Console.Log Nedir ?](Ex05)
+- [Ex06 - Document.GetElementByID Nedir ?](Ex06)
