@@ -62,6 +62,8 @@ document.write("Şu Anki Yıl: " + currentYear + "<br>");
 
 ```
 
+---
+
 ### Özet 
 
 JavaScript'te aynı anda birden fazla değişken tanımlamak, kodunuzu daha düzenli ve okunabilir hale getirebilir. `var`, `let` ve `const` anahtar kelimeleri ile bu işlemi gerçekleştirebilir ve değişkenlerin kapsamını kontrol edebilirsiniz. Modern `JavaScript` geliştirme pratiklerine uygun olarak, let ve const kullanımı genellikle tercih edilir.
