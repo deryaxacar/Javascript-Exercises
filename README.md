@@ -20,3 +20,4 @@
 - [Ex16 - Birden Fazla Değişken Tanımlamak](Ex16)
 - [Ex17 - TypeOf Nedir ?](Ex17)
 - [Ex18 - Length Özelliği Nedir ?](Ex18)
+- [Ex19 - Eval Fonksiyonu Nedir ?](Ex19)
