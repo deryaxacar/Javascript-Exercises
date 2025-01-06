@@ -19,3 +19,4 @@
 - [Ex15 - Prompt Nedir ?](Ex15)
 - [Ex16 - Birden Fazla Değişken Tanımlamak](Ex16)
 - [Ex17 - TypeOf Nedir ?](Ex17)
+- [Ex18 - Length Özelliği Nedir ?](Ex18)
