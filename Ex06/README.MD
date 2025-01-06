@@ -1,4 +1,4 @@
-### Document.GetElementById` Nedir?
+### Document.GetElementById Nedir?
 
 JavaScript içerisinde yer alan `document.getElementById()` fonksiyonu, HTML belgesindeki **ID** (benzersiz kimlik) özelliğine sahip bir elementi bulmak için kullanılır. Bu fonksiyon, sayfadaki ilgili etiketi **Element** nesnesi şeklinde döndürür ve böylece o element üzerinde çeşitli işlemler (metin değiştirme, stil ayarlama vb.) yapmanızı sağlar.
 
