@@ -1,6 +1,6 @@
-## Eval Fonksiyonu Nedir?
+## Eval Metodu Nedir?
 
-`eval` fonksiyonu, kendisine geçirilen string ifadenin `JavaScript` kodu olarak değerlendirilmesini ve çalıştırılmasını sağlar. Bu, dinamik olarak oluşturulan kod parçalarını çalıştırmak için kullanılabilir.
+`eval` metodu, kendisine geçirilen string ifadenin `JavaScript` kodu olarak değerlendirilmesini ve çalıştırılmasını sağlar. Bu, dinamik olarak oluşturulan kod parçalarını çalıştırmak için kullanılabilir.
 
 ---
 
