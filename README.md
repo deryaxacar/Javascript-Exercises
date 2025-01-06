@@ -18,3 +18,4 @@
 - [Ex14 - Artırma ve Azaltma Operatörleri](Ex14)
 - [Ex15 - Prompt Nedir ?](Ex15)
 - [Ex16 - Birden Fazla Değişken Tanımlamak](Ex16)
+- [Ex17 - TypeOf Nedir ?](Ex17)
