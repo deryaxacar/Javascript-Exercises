@@ -16,7 +16,7 @@ str.substring(startIndex, endIndex);
 
 ---
 
-## Kullanım Şekli
+### Kullanım Şekli
 
 ```Javascript
 var newString = originalString.substring(startIndex, endIndex);
