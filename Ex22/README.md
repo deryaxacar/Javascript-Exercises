@@ -25,7 +25,7 @@ var newString = originalString.substring(startIndex, endIndex);
 
 ---
 
-**Örnek Kod**
+### Örnek Kod
 
 Aşağıda, `substring()` metodunun nasıl kullanılacağını gösteren basit bir örnek bulunmaktadır:
 
