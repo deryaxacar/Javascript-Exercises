@@ -16,7 +16,7 @@ str.substring(startIndex, endIndex);
 
 ---
 
-### Kullanım Şekli
+## Kullanım Şekli
 
 ```Javascript
 var newString = originalString.substring(startIndex, endIndex);
@@ -44,9 +44,9 @@ document.write(new_text2 + "<br>"); // Çıktı: world
 
 ---
 
-### Farklı Kullanım Senaryoları
+## Farklı Kullanım Senaryoları
 
-**Başlangıç ve Bitiş İndekslerinin Değiştirilmesi**
+### Başlangıç ve Bitiş İndekslerinin Değiştirilmesi
 
 - `substring()` metodu, başlangıç indeksi bitiş indeksinden büyükse, iki indeksi yer değiştirir:
 
@@ -59,7 +59,7 @@ document.write(part + "<br>"); // Çıktı: Scri
 
 ---
 
-**Negatif İndeks Kullanımı**
+### Negatif İndeks Kullanımı
 
 - `substring()` metodu negatif indeksleri desteklemez. Negatif bir değer kullanıldığında, `indeks 0` olarak kabul edilir:
 
