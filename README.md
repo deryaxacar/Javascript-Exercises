@@ -23,3 +23,4 @@
 - [Ex19 - Eval Metodu Nedir ?](Ex19)
 - [Ex20 - Trim Metodu Nedir ?](Ex20)
 - [Ex21 - Slice Metodu Nedir ?](Ex21)
+- [Ex22 - SubString Metodu Nedir ?](Ex22)
