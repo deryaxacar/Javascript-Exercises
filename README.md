@@ -25,4 +25,4 @@
 - [Ex21 - Slice Metodu Nedir ?](Ex21)
 - [Ex22 - SubString Metodu Nedir ?](Ex22)
 - [Ex23 - Repeat Metodu Nedir ?](Ex23)
-- [eX24 - ToString Metodu Nedir ?](Ex24)
+- [Ex24 - ToString Metodu Nedir ?](Ex24)
