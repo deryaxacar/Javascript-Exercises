@@ -41,9 +41,9 @@ document.write("<br>" + typeof(new_value)); // Çıktı: string
 
 ### Açıklamalar
 
-- **Başlangıçta:** value değişkeni bir sayı (number) türündedir.
-- **Dönüştürme:** value.toString() ifadesi, sayıyı string'e dönüştürür.
-- **Sonuç:** new_value artık bir string (string) türündedir.
+- **Başlangıçta:** `value` değişkeni bir sayı `(number)` türündedir.
+- **Dönüştürme:** `value.toString()` ifadesi, sayıyı string'e dönüştürür.
+- **Sonuç:** `new_value` artık bir `string (string)` türündedir.
 
 ---
 
