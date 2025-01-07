@@ -29,3 +29,4 @@
 - [Ex25 - Number Metodu Nedir ?](Ex25)
 - [Ex26 - ValueOf Metodu Nedir ?](Ex26)
 - [Ex27 - IndexOf Metodu nedir ?](Ex27)
+- [Ex28 - LastIndexOf Metodu Nedir ?](Ex28)
