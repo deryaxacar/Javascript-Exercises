@@ -4,7 +4,7 @@
 
 ---
 
-**Söz Dizimi**
+### Söz Dizimi
 
 ```Javascript
 str.substring(startIndex, endIndex);
