@@ -22,3 +22,4 @@
 - [Ex18 - Length Özelliği Nedir ?](Ex18)
 - [Ex19 - Eval Metodu Nedir ?](Ex19)
 - [Ex20 - Trim Metodu Nedir ?](Ex20)
+- [Ex21 - Slice Metodu Nedir ?](Ex21)
