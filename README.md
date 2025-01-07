@@ -26,3 +26,4 @@
 - [Ex22 - SubString Metodu Nedir ?](Ex22)
 - [Ex23 - Repeat Metodu Nedir ?](Ex23)
 - [Ex24 - ToString Metodu Nedir ?](Ex24)
+- [Ex25 - Number Metodu Nedir ?](Ex25)
