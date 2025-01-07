@@ -4,7 +4,7 @@
 
 ---
 
-### Söz Dizimi:
+### Sözdizimi:
 
 ```Javascript
 value.toString();
