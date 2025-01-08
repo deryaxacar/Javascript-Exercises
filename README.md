@@ -31,3 +31,4 @@
 - [Ex27 - IndexOf Metodu nedir ?](Ex27)
 - [Ex28 - LastIndexOf Metodu Nedir ?](Ex28)
 - [Ex29 - Search Metodu Nedir ?](Ex29)
+- [Ex30 - Includes Metodu Nedir ?](Ex30)
