@@ -25,8 +25,8 @@ Yukarıdaki kodda:
 
 ### Parametreler
 
-- searchString (gerekli): Kontrol edilecek alt dizge.
-- position (isteğe bağlı): Aramanın başlayacağı indeks (varsayılan 0).
+- **searchString (gerekli):** Kontrol edilecek alt dizge.
+- **position (isteğe bağlı):** Aramanın başlayacağı `indeks` (varsayılan 0).
 
 ```javascript
 var text = "Hello World!";
