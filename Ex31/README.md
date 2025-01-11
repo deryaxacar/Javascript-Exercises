@@ -40,7 +40,6 @@ document.write(result); // true
 
 ### Özet
 
-`startsWith()` belirli bir substring ile başlayıp başlamadığını döndüren basit bir JavaScript metodudur.
-Kolay kullanımı ve yaygın desteği sayesinde, string işlemlerinde sıkça tercih edilir.
-`startsWith()` metodu modern tarayıcılarda ve `Node.js` ortamında desteklenmektedir.
-Eski tarayıcılarda kullanmak için polyfill eklemeniz gerekebilir. 
+`startsWith()` belirli bir substring ile başlayıp başlamadığını döndüren basit bir JavaScript metodudur. Kolay kullanımı ve yaygın desteği sayesinde, string işlemlerinde sıkça tercih edilir. `startsWith()` metodu modern tarayıcılarda ve `Node.js` ortamında desteklenmektedir. Eski tarayıcılarda kullanmak için polyfill eklemeniz gerekebilir. 
+
+---
