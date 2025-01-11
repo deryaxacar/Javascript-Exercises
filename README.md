@@ -33,3 +33,4 @@
 - [Ex29 - Search Metodu Nedir ?](Ex29)
 - [Ex30 - Includes Metodu Nedir ?](Ex30)
 - [Ex31 - StartsWith Metodu Nedir?](Ex31)
+- [Ex32 - EndsWith Metodu Nedir ?](Ex32)
