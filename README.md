@@ -34,3 +34,4 @@
 - [Ex30 - Includes Metodu Nedir ?](Ex30)
 - [Ex31 - StartsWith Metodu Nedir?](Ex31)
 - [Ex32 - EndsWith Metodu Nedir ?](Ex32)
+- [Ex33 - Match Metodu Nedir ?](Ex33)
