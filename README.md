@@ -32,7 +32,7 @@
 - [Ex28 - LastIndexOf Metodu Nedir ?](Ex28)
 - [Ex29 - Search Metodu Nedir ?](Ex29)
 - [Ex30 - Includes Metodu Nedir ?](Ex30)
-- [Ex31 - StartsWith Metodu Nedir?](Ex31)
+- [Ex31 - StartsWith Metodu Nedir ?](Ex31)
 - [Ex32 - EndsWith Metodu Nedir ?](Ex32)
 - [Ex33 - Match Metodu Nedir ?](Ex33)
 - [Ex34 - Replace Metodu Nedir ?](Ex34)
