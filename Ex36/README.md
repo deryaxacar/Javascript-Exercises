@@ -4,7 +4,7 @@ JavaScript'te `sup()` metodu, bir metni (string) HTML `<sup>` etiketi (superscri
 
 > **Not**: `sup()` gibi HTML ile ilgili string yöntemleri eski (legacy) sayılabilir ve günümüz projelerinde pek tercih edilmemektedir. Daha güncel projelerde doğrudan HTML etiketlerini veya CSS stillerini kullanmanız önerilir.
 
-## Kullanım Örneği
+### Kullanım Örneği
 
 ```javascript
 var text = "Hello World!";
