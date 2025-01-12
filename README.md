@@ -36,3 +36,5 @@
 - [Ex32 - EndsWith Metodu Nedir ?](Ex32)
 - [Ex33 - Match Metodu Nedir ?](Ex33)
 - [Ex34 - Replace Metodu Nedir ?](Ex34)
+- [Ex35 - Sub Metodu Nedir ?](Ex35)
+- [Ex36 - Sup Metodu Nedir ?](Ex36)
