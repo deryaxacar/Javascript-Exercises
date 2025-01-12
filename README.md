@@ -38,3 +38,4 @@
 - [Ex34 - Replace Metodu Nedir ?](Ex34)
 - [Ex35 - Sub Metodu Nedir ?](Ex35)
 - [Ex36 - Sup Metodu Nedir ?](Ex36)
+- [Ex37 - Big Metodu Nedir ?](Ex37)
