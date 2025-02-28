@@ -40,4 +40,4 @@
 - [Ex36 - Sup Metodu Nedir ?](Ex36)
 - [Ex37 - Big Metodu Nedir ?](Ex37)
 - [Ex38 - Small Metodu Nedir ?](Ex38)
-- [Ex38 - Bold Metodu Nedir ?](Ex39)
+- [Ex39 - Bold Metodu Nedir ?](Ex39)
