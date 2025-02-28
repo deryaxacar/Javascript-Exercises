@@ -42,3 +42,4 @@
 - [Ex38 - Small Metodu Nedir ?](Ex38)
 - [Ex39 - Bold Metodu Nedir ?](Ex39)
 - [Ex40 - Italics Metodu Nedir ?](Ex40)
+- [Ex41 - Strike Metodu Nedir ?](Ex41)
