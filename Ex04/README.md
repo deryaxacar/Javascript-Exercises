@@ -1,30 +1,29 @@
-### Document.Write Nedir?
+### What is Document.Write?
 
-JavaScript içinde yer alan `document.write()` fonksiyonu, `HTML` sayfası yüklenirken dinamik olarak içeriğe metin veya `HTML` eklemenize olanak tanır. Bu fonksiyon, özellikle basit testlerde veya hızlı çıktılar almak istediğinizde kullanılabilir. Ancak modern web geliştirme pratiklerinde sık başvurulan bir yöntem değildir.
+The `document.write()` function in JavaScript allows you to dynamically insert text or HTML into a webpage **while it's loading**. This function is especially useful for simple tests or when you need quick output. However, it is **not commonly used** in modern web development practices.
 
 ---
 
-### Temel Kullanım
+### Basic Usage
 
-Aşağıdaki örnekler, sayfaya satır satır metin eklemeyi gösterir:
+The following examples demonstrate how to add lines of text to the page:
 
 ```javascript
+// Print a single line of text
+document.write("Hello, World!");
 
-    // Tek satırlık metin yazdırma
-    document.write("Hello, World!");
+// Use <br/> to insert a line break
+document.write("<br/>");
 
-    // Satır atlamak için <br/> kullanabilirsiniz
-    document.write("<br/>");
+// The writeln method adds a newline character automatically
+document.writeln("Hello, World!");
 
-    // writeln metodu ile satır sonunda boşluk bırakır
-    document.writeln("Hello, World!");
-
-    // Tekrar metin yazdırma
-    document.write("Hello, World!");
+// Write text again
+document.write("Hello, World!");
 
 ```
 
-**Çıktı:**
+**Output:**
 
 ```zsh
 
@@ -35,34 +34,33 @@ Hello, World! Hello, World!
 
 ---
 
-### Ne Zaman Kullanılır?
+### When to Use It?
 
-- **Hızlı Prototipleme veya Test:** Kodlarınızı test ederken basit bir şekilde çıktı almak istediğinizde.
+- **Quick Prototyping or Testing:** When you want to quickly print output while testing your code.
 
-- **Basit İçerik Ekleme:** Formun veya sayfanın ilk yüklenmesi sırasında, ufak bir mesaj ya da değer göstermek istediğinizde.
-
----
-
-**Örnek Senaryo:**
-
-- Sadece bir öğrenme süreci için örnek kod yazıyorsanız veya
-
-- Okul ödevlerinde hızlı bir çıktı göstermek istiyorsanız `document.write()` işinizi görebilir.
+- **Simple Content Insertion:** To display a small message or value during the initial loading of a form or page.
 
 ---
 
-### Dikkat Edilmesi Gerekenler
+**Example Scenario:**
 
-- **Sayfa Yüklendikten Sonra Kullanım:** `document.write()` sayfa yüklendikten sonra çağrılırsa, mevcut sayfa içeriği tamamen silinebilir ve sadece son yazılan metin kalır. Bu yüzden genellikle sayfa yüklenirken kullanılır.
-
-- **Modern Yaklaşım:** Güncel projelerde, `JavaScript` ile `DOM` manipülasyonu yapmak için `innerHTML`, `appendChild`, `createElement` gibi yöntemler ya da modern kütüphaneler `(React, Vue, Angular vb.)` tercih edilir.
-
-- **Performans ve Okunabilirlik:** `document.write()` yaklaşımı büyük projelerde karmaşıklık yaratabilir ve okuması zor kodlar üretebilir.
+- If you're writing example code just for learning purposes, or  
+- You want to quickly display some output for a school assignment, `document.write()` might be sufficient.
 
 ---
 
-**Özet**
+### Things to Consider
 
-`document.write()` fonksiyonu, HTML belgesine metin veya HTML içeriği yazdırmanın en temel yollarından biridir. Günümüzde ise daha esnek ve güvenli alternatifler olduğu için genellikle öğrenme veya basit demonstrasyon amaçlarıyla kullanılmaktadır. Eğer dinamik içerik eklemeniz gerekiyorsa, `DOM` manipülasyonu veya modern kütüphaneler kullanmanız tavsiye edilir.
+- **Usage After Page Load:** If `document.write()` is called **after** the page has fully loaded, it will erase the entire page content and replace it with the new text. For this reason, it's typically used **during** the page load phase.
+
+- **Modern Approach:** In modern projects, it's better to use methods like `innerHTML`, `appendChild`, or `createElement` for DOM manipulation — or frameworks/libraries like **React**, **Vue**, or **Angular**.
+
+- **Performance and Readability:** Relying on `document.write()` in large projects can lead to cluttered and hard-to-maintain code.
+
+---
+
+### Summary
+
+The `document.write()` function is one of the most basic ways to write text or HTML into an HTML document. Today, it’s mostly used for learning or simple demos because more flexible and safer alternatives are available. If you need to add dynamic content, you are encouraged to use DOM manipulation or modern JavaScript frameworks instead.
 
 ---
