@@ -1,44 +1,45 @@
-## NoScript Etiketi Nedir?
+## What is the <noscript> Tag?
 
-`<noscript>` etiketi, tarayıcısında JavaScript devre dışı bırakılmış (veya JavaScript’i desteklemeyen) kullanıcılar için özel bir mesaj veya içerik göstermeye yarar. JavaScript'in devre dışı olması durumunda, kullanıcı bu etiketin içindeki mesajı/dosyayı görecektir. Eğer JavaScript etkinse, `<noscript>` etiketi içeriği görünmez hâle gelir.
+The `<noscript>` tag is used to display a custom message or content for users whose browsers have JavaScript disabled (or do not support JavaScript at all). If JavaScript is disabled, users will see the content inside this tag. If JavaScript is enabled, the content inside `<noscript>` will not be visible.
 
 ---
 
-### Ne İşe Yarar?
+### What Is It Used For?
 
-1. **Uyarı Mesajı Gösterme**: Eğer web sitenizin kritik fonksiyonları JavaScript’e dayalıysa, kullanıcıya JavaScript’i etkinleştirmesi gerektiğini veya başka bir tarayıcı kullanmasını öneren bir mesaj görüntüleyebilirsiniz.
-2. **Alternatif İçerik Sunma**: JavaScript devre dışı kalma ihtimaline karşı, sitenizin bazı yönlerini kısıtlı da olsa sunmaya devam edebilirsiniz. Örneğin, resim galerisi veya form doğrulaması gibi JS gerektiren özellikler yerine alternatif, daha basit sürümlerini sunabilirsiniz.
+1. **Display Warning Message**: If your website relies heavily on JavaScript for critical features, you can show a message recommending the user to enable JavaScript or use another browser.
+2. **Provide Alternative Content**: In case JavaScript is disabled, you can offer limited but usable versions of some site features — for example, a basic version of a gallery or form validation.
 
 ```html
 <noscript>
-  Javascript etkin değil. Lütfen tarayıcınızda JavaScript’i aktif hale getirin.
+  JavaScript is not enabled. Please enable JavaScript in your browser.
 </noscript>
 
 ```
 
 ---
 
-### Nasıl Kullanılır?
-`<noscript>` etiketini, genellikle sayfanın `<head>` veya `<body>` kısımlarında kullanabilirsiniz.
-**Öneri:** Ziyaretçinin görebileceği şekilde görünür bir alanda yerleştirin.
-`<script>` ile birlikte kullanılırken, `<noscript>` etiketi `JavaScript` çalışmıyorsa devreye girer.
+### How to Use It?
 
-**Örnek kullanım:**
+You can place the `<noscript>` tag inside either the `<head>` or `<body>` sections of the page.  
+**Tip:** Make sure it is placed in a visible area so that users can actually see the message.  
+When used alongside a `<script>` tag, the `<noscript>` content will only appear **if JavaScript is disabled**.
+
+**Example usage:**
 
 ```html
 <!DOCTYPE html>
-<html lang="tr">
+<html lang="en">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Örnek Sayfa</title>
+  <title>Sample Page</title>
   <noscript>
-    JavaScript devre dışı. Lütfen etkinleştirin.
+    JavaScript is disabled. Please enable it.
   </noscript>
 </head>
 <body>
-  <h1>Anasayfa</h1>
-  <p>Bu paragraf JavaScript açıksa normal şekilde görünür.</p>
+  <h1>Homepage</h1>
+  <p>This paragraph is visible when JavaScript is enabled.</p>
 
   <script src="script.js"></script>
 </body>
@@ -48,21 +49,22 @@
 
 ---
 
-- JavaScript etkinse, <noscript> etiketi hiçbir içerik göstermeyecektir.
-- JavaScript devre dışıysa, <noscript> içindeki uyarı mesajı kullanıcıya görünecektir.
+- If JavaScript is enabled, the `<noscript>` tag will not display any content.  
+- If JavaScript is disabled, the warning message inside `<noscript>` will be shown to the user.
 
 ---
 
-### Neden Önemli?
+### Why Is It Important?
 
-**Erişilebilirlik (Accessibility):** Her ne kadar modern tarayıcıların çoğu JavaScript'i desteklese de, kimi kullanıcılar güvenlik veya performans nedeniyle JavaScript'i kapalı tutabiliyor. Bu durumda sitenizin en temel kısımlarına ulaşılabilirlik sağlamak istiyorsanız, <noscript> kullanarak bir uyarı veya alternatif içerik gösterebilirsiniz.
+**Accessibility:** Although most modern browsers support JavaScript, some users may disable it for security or performance reasons. In such cases, if you want to ensure access to your site’s basic functionality, you can use `<noscript>` to display a warning or provide alternative content.
 
-**SEO Etkisi:** Arama motoru botlarının çoğu JavaScript’i işleyebilir. Ancak hala noscript içeriğini de tarayan botlar mevcut. Bu nedenle, temel mesajları, yönlendirmeleri veya önemli içerikleri noscript etiketinde de sunmak zaman zaman faydalı olabilir (abartmamak şartıyla).
+**SEO Impact:** While most search engine bots are capable of processing JavaScript, some still scan `<noscript>` content as well. Therefore, including basic messages, navigation tips, or key content inside `<noscript>` may occasionally be beneficial — as long as it’s not overused.
 
 ---
 
-### Özet
+### Summary
 
-`<noscript>` etiketi, JavaScript’in kapalı olduğu durumlarda kullanıcılar veya botlar için önemli içerik veya uyarı göstermek istediğimizde başvurabileceğimiz faydalı bir HTML etiketidir. Bu sayede, ziyaretçilere en azından temel bir mesaj veya yol haritası sunmuş oluruz.
+The `<noscript>` tag is a useful HTML element for displaying important messages or fallback content when JavaScript is disabled. It allows you to provide users or bots with at least a basic message or navigation path in the absence of JavaScript.
+
 
 ---
