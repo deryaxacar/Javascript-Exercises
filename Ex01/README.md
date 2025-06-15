@@ -1,44 +1,34 @@
-## HTML Dosyasına JavaScript Bağlamak
+## Linking JavaScript to an HTML File
 
-Bu mini rehberde bir **HTML** dosyasına harici bir **JavaScript** dosyasını nasıl bağlayacağınızı öğreneceksiniz. Aşağıdaki adımları izleyerek, projelerinizde JavaScript dosyanızı rahatlıkla kullanabilirsiniz!
+In this mini guide, you'll learn how to link an external **JavaScript** file to an **HTML** file. By following the steps below, you can easily integrate JavaScript into your projects!
 
 ---
 
-### 1. Proje Klasörü Oluşturmak
+### 1. Create a Project Folder
 
-1. Bilgisayarınızda projenize özel bir klasör oluşturun.
-2. Bu klasör içerisinde iki dosya oluşturun:
+1. Create a dedicated folder on your computer for your project.
+2. Inside this folder, create the following two files:
    - `index.html`
    - `script.js`
 
-### 2. HTML Dosyasını Hazırlamak
+### 2. Prepare the HTML File
 
-`index.html` dosyanızı temel bir HTML yapısıyla başlatın.
+Start your `index.html` file with a basic HTML structure.
 
-**Örnek HTML kodu**:
+**Sample HTML code**:
 ```html
 <!DOCTYPE html>
-<html lang="tr">
+<html lang="en">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Benim Projem</title>
+  <title>My Project</title>
 </head>
 <body>
-  <!-- HTML içeriğinizi buraya ekleyebilirsiniz -->
+  <!-- You can add your HTML content here -->
 
-  <!-- JavaScript dosyası burada bağlanacak -->
+  <!-- The JavaScript file will be linked here -->
   <script src="script.js"></script>
 </body>
 </html>
-
 ```
-
-**Dikkat Edilmesi Gerekenler:**
-
-- `<script src="script.js"></script>` satırı, JavaScript dosyamızı (script.js) HTML dosyasına bağlamış olur.
-- Genelde `<script>` etiketini `</body>` etiketinden hemen önce yerleştirmek önerilir. Böylece sayfadaki elementler yüklenir ve JavaScript sorunsuz çalışır.
-
-- Modern tarayıcılarda `type="text/javascript"` eklemek opsiyoneldir. Zorunlu değildir, ancak eski tarayıcılarda kullanılabilirdi.
-
----
