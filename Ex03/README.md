@@ -1,60 +1,63 @@
-## Alert Mesajı Nedir?
+## What is an Alert Message?
 
-- JavaScript'te `alert()` fonksiyonu, web sayfası üzerinde `basit bir uyarı penceresi` (dialog box) göstermek için kullanılır. 
+- In JavaScript, the `alert()` function is used to display a **simple alert dialog box** on a web page.
 
-- Tarayıcı, bu fonksiyon çağırıldığında ekranda bir diyalog kutusu açar ve içerisindeki metni kullanıcıya gösterir. Kullanıcı, `Tamam (OK)` butonuna tıklayana kadar diyalog penceresi açık kalır.
+- When this function is called, the browser opens a dialog box showing the specified message. The dialog remains visible until the user clicks the `OK` button.
 
 ---
 
-### Kullanım Örneği
+### Example Usage
 
-Aşağıdaki kod, tarayıcıda `"deneme mesajı"` içeren bir uyarı penceresi gösterecektir:
+The following code will display an alert box with the message `"test message"` in the browser:
 
 ```javascript
-alert("deneme mesajı");
+alert("test message");
 
 ```
 
 ---
 
-### Özellikler
+### Features
 
-- **Engelleyici (blocking):** `alert()` fonksiyonu çalıştığında, kullanıcı Tamam düğmesine basana kadar sayfadaki diğer etkileşimler engellenir.
+- **Blocking:** When the `alert()` function is triggered, all other interactions on the page are blocked until the user clicks the OK button.
 
-- **Basit ve Etkilidir:** Kullanıcıya acil uyarı ya da bilgi vermek istediğinizde doğrudan kullanabilirsiniz.
+- **Simple and Effective:** It can be used directly to show urgent alerts or information to the user.
 
-- **Kullanıcı Deneyimi:** Çok sık kullanıldığında, kullanıcılar açısından rahatsız edici olabilir. Bu nedenle `alert()` mesajını yalnızca gerekli olduğunda tercih etmelisiniz.
-
----
-
-### Ne Zaman Kullanılır?
-
-- **Hızlı Uyarılar:** Form doğrulama hataları, önemli bilgiler veya hatalı işlemlerde kullanıcıyı bilgilendirmek istediğinizde.
-
-- **Basit Geri Bildirim:** Sunucu yanıtı, onay veya yönlendirme mesajlarında.
+- **User Experience:** If used too frequently, it can become annoying. Therefore, it should only be used when absolutely necessary.
 
 ---
 
-### Örnek Senaryolar:
+### When to Use It?
 
-- Formda bir alan boş bırakıldığında: `alert("Lütfen bu alanı doldurunuz.")`
+- **Quick Warnings:** For form validation errors, important notices, or incorrect operations.
 
-- Silme işlemi hatasında: `alert("Bu kaydı silemezsiniz!")`
-
----
-
-### Dikkat Edilmesi Gerekenler
-
-**Kullanıcı Dostu Değildir:** 
-Fazla sayıda `alert()` mesajı, kullanıcıyı rahatsız eder. Mümkün olduğunca daha kullanışlı, sayfa üzerinde gömülü uyarı pencereleri tercih edilebilir.
-
-**Erişilebilirlik (Accessibility):** 
-Erişilebilirliği iyi düşünmek gerekir. Ekran okuyucu kullanan kullanıcılar için beklenmedik şekilde beliren diyaloglar kullanıcı deneyimini zorlaştırabilir.
+- **Simple Feedback:** For server responses, confirmations, or redirection messages.
 
 ---
 
-### Özet
+### Example Scenarios:
 
-`alert()` fonksiyonu, `JavaScript`'te acil veya anlık uyarı ve mesajlar vermek için kullanabileceğiniz en basit yöntemdir. Kullanıcı deneyimini olumsuz etkilememek adına, dikkatli ve ölçülü kullanılmalıdır.
+- When a required field in a form is left empty:  
+  `alert("Please fill in this field.");`
+
+- When a deletion operation fails:  
+  `alert("You cannot delete this record!");`
+
+---
+
+### Things to Consider
+
+**Not User-Friendly:**  
+Too many `alert()` messages can frustrate users. It's better to use more user-friendly, embedded alert components within the page layout whenever possible.
+
+**Accessibility:**  
+Accessibility must be carefully considered. Unexpected alert dialogs may negatively impact users who rely on screen readers or other assistive technologies.
+
+---
+
+### Summary
+
+The `alert()` function is the simplest way to display urgent or immediate warnings and messages in JavaScript. However, to avoid disrupting the user experience, it should be used carefully and in moderation.
+
 
 ---
